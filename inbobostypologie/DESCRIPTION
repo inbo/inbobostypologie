@@ -1,0 +1,9 @@
+Package: inbobostypologie
+Type: Package
+Title: Berekening bostypologie
+Version: 0.1
+Date: 2017-10-20
+Author: Pieter Verschelde
+Maintainer: Pieter Verschelde <pieter.verschelde@inbo.be>
+Description: Poging om de applicatie voor bostypologie van Sigrid Coenen en Jonny Cornelis in een R pakket onder te brengen
+License: MIT
