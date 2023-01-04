@@ -18,6 +18,7 @@ Suggests:
   knitr,
   rmarkdown,
   plyr,
+  tidyr
 Encoding: UTF-8
 VignetteBuilder: knitr
 RoxygenNote: 7.2.1
