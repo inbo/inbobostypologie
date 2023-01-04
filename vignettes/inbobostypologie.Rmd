@@ -1,0 +1,313 @@
+---
+title: "inbobostypologie"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{inbobostypologie}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(inbobostypologie)
+library(ggplot2)
+library(plyr)
+library(dplyr)
+```
+
+
+
+# Bostypologie - Inleiding
+
+## Karakteristieke functies in het programma
+
+### Formule 1: Presentie van een soort in een bostype
+
+```{r}
+#'
+#' @param n_ak aantal opnamen met soort k behorend tot type a
+#' @param n aantal opnamen behoren tot type a
+#'
+#' @return
+#' @export
+#'
+#' @examples
+P_ak <- function(n_ak, n_a){
+  n_ak / n_a * 100
+}
+```
+
+### Formule 2: Karakteristieke bedekking
+
+```{r, eval = FALSE}
+#'
+#' @param B_ak vector met de bedekkingen van soort k in de opnames j behorend tot type a
+#' @param n_ak aantal opnamen met soort k behorend tot type a
+#'
+#' @return
+#' @export
+#'
+#' @examples
+KB_ak <- function(B_ak, n_ak){
+  sum(B_ak) / n_ak
+}
+```
+
+### Formule 3: Trouw van een soort. De mate waarin een soort gebonden is aan een bostype.
+
+```{r, eval = FALSE}
+#' @param P_ak Presentie van een soort in een bostype (formule 1)
+#' @param P_k Algemene presentie van een soort in de dataset (formule 4)
+#'
+#' @return
+#' @export
+#'
+#' @examples
+T_ak <- function(P_ak, P_k){
+  P_ak / P_k
+}
+```
+
+### Formule 4: Algemene presentie van een soort k in de hele dataset
+
+```{r, eval = FALSE}
+#' @param n_k aantal opnamen met soort k in de hele dataset
+#' @param n tottal aantal opnamen in de hele dataset
+#'
+#' @return
+#' @export
+#'
+#' @examples
+P_k <- function(n_k, n){
+  nk / n * 100
+}
+```
+
+### Formule 5: Indicatorwaarde van een soort voor een bepaalde gemeenschap (Dufrêne & Legendre, 1997)
+
+```{r, eval = FALSE}
+#' @param Pak Presentie van een soort in een bostype (formule 1)
+#' @param Pk mag leeg zijn als Tak ingevuld is. Algemene presentie van een soort in de dataset (formule 4).
+#' @param Tak mag leeg zijn als Pk ingevuld is. Trouw van een soort aan een bostype (formule 3)
+#'
+#' @return
+#' @export
+#'
+#' @examples
+IndVal_ak <- function(P_ak, P_k, T_ak){
+  if (!missing(Pk)){
+    rv <- P_ak^2 / (P_k * 100)
+  } else {
+    rv <- T_ak * P_ak / 100
+  }
+  rv
+}
+```
+
+### Formule 6: Normalisatie van de IndValwaarden
+
+```{r, eval = FALSE}
+#' @param IndVal_ak vector met indicatorwaarde van de soorten voor een bepaalde gemeenschap (formule 5)
+#'
+#' @return vector
+#' @export vector met genormaliseerde IndValwaarden
+#'
+#' @examples
+v_ak <- function (IndVal_ak){
+  IndVal_ak / sum(IndVal_ak)
+}
+```
+
+### Formule 7: Verwantschapscore voor opname j voor gemeenschap a (niet-gewogen)
+
+```{r, eval = FALSE}
+#' @param v_ak vector met genormaliseerde indvalwaarden voor alle soorten in een bepaalde opname (formule 6)
+#'
+#' @return
+#' @export
+#'
+#' @examples
+S_aj_simple <- function(v_ak){
+  sum(v_ak)
+}
+```
+
+### Formule 8: Gewogen verwantschapscore voor opname j voor gemeenschap a
+
+```{r, eval = FALSE}
+#' @param v_ak v_ak vector met genormaliseerde indvalwaarden voor alle soorten in een bepaalde opname (formule 6)
+#' @param w_ajk vector met wegingsfactoren (formule 9)
+#'
+#' @return
+#' @export
+#'
+#' @examples
+S_aj <- function(v_ak, w_ajk){
+  sum(v_ak * w_ajk)
+}
+```
+
+### Formule 9: Wegingsfactoren
+
+```{r, eval = FALSE}
+#' @param B_jk Bedekking van soort k in opname j
+#' @param KB_ak karaktereistiek ebedekking van soort k in gemeenschap a
+#'
+#' @return
+#' @export
+#'
+#' @examples
+w_ajk <- function(B_jk, KB_ak){
+  sqrt(pmin(B_jk, KB_ak)/pmax(B_jk, KB_ak))
+}
+```
+
+
+# Narekenen voorbeeld uit handleiding van de Access-applicatie
+
+Hieronder worden de calibratie- en scoringsstap beschreven zoals in de handleiding van de oorspronkelijke Access applicatie. De calibratiestap is niet meer nodig om nieuwe opnames te scoren, omdat die op voorhand al uitgevoerd is en ook meegeleverd is met dit pakket. De bestanden die betrekking hebben tot deze calibratie bevinden zich in de submap Bostypologie/extdata en zijn de volgende:
+
+- **referentiewaarden_berekening.csv**: De belangrijkste tabel die alle scores bevat die als basis dienen voor de classificatie
+- **bostypes_vlaanderen.csv**: De tekstuele beschrijvingen bij de verschillende bostypecodes
+- **schaal_conversie.csv**: De conversietabel tussen verschillende scores naar Percentage
+- **Schaal_definitie.csv**: De naam van de conversies van schaalconversie.csv
+- **soortenlijst_vlaanderen.csv**: De soortenlijst voor het grondgebied Vlaanderen, die tevens de vertaling van Nederlandstalige en wetenschappelijke naam naar het soortnummer voorziet
+
+## Calibreren van de bostypologiescores (meegeleverd in het pakket)
+
+Dus onderstaande code is de calibratiestap, in het volgende punt staat de scoringsstap. De calibratiestap is niet meer nodig voor een classificatie op basis van de bestaande calibratie van de bostypologie.
+
+```{r}
+library(plyr)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+typopath <- system.file(package = "inbobostypologie")
+# 
+path <- file.path(typopath, "pkgdata", "soortenlijst_vlaanderen.csv")
+Soortenlijst <- read.csv2(path)
+# 
+path <- file.path(typopath, "extdata", "tutorial_referentieopname.csv")
+RefOpnames <- read.csv2(path)
+# 
+# #Calculate calibration scores
+# 
+Scores <- btyp_calibrateForestTypology(RefOpnames)
+```
+
+## Een opname scoren volgens de calibratie van voorgaand punt
+
+Hier staat de code hoe je de bostypologie kan classificeren op basis van een bestaande calibratie, uitgewerkt voor onze fictieve calibratiestap.
+
+```{r}
+MyOpname <- data.frame(OPNAMECODE = 19, 
+                       SOORT = c("Zomereik", "Gewone braam", 
+                                 "Lelietje-van-dalen", "Wilde hyacint", "Es"),
+                       BEDEKKING = c(50,5,5,2,60))
+MyOpname <- merge(MyOpname, Soortenlijst[c("SPECIES_NR", "NAME_NL")], all.x = TRUE, by.x = "SOORT", by.y = "NAME_NL")
+# #De duplicaten eruit halen want door de synoniemen zijn er meerdere rijen in de soortenlijst die geldig zijn voor dezelfde rij in MyOpname
+MyOpname <- MyOpname[!duplicated(MyOpname),,drop = FALSE]
+#Classificatie met niet-gewogen scores
+result1 <- btyp_calculateAffinity(MyOpname, Scores, correct = FALSE)
+result1
+# 
+#Classificatie met gewogen scores
+result2 <- btyp_calculateAffinity(MyOpname, Scores, correct = TRUE)
+result2
+#Plot de resultaten 
+btyp_plotAffinity(result1)
+btyp_plotAffinity(result2)
+```
+
+# Classificatie op basis van de bestaande calibratie voor de bostypologie (Johnny Cornelis et al)
+
+```{r}
+#Haal de voorbeeld opname file op
+#LET OP. De variabele met de waarden in, moet een character variabele zijn
+  #Dus voor Pct moet je letterlijk de waarden .1 .2 .3 ... .9 1 2 3 4 ...25 26 hebben
+  # In een latere iteratie van het pakket kan dit opgelost worden
+voorbeeld_vlaanderen <- 
+  read.csv2(file.path(system.file(package = "inbobostypologie"),
+                      "extdata", "voorbeeld_opname.csv"),
+            stringsAsFactors = FALSE)
+str(voorbeeld_vlaanderen)
+
+#Haal de calibratie voor Vlaanderen op
+reflist <- btyp_readReferenceDataFiles()
+
+wdata <- btyp_prepareSampleData(voorbeeld_vlaanderen, 
+                                scale = "Pct", #reflist$Conversion$NAME_SHORT
+                                conversiontable = reflist$Conversion,
+                                specieslist = reflist$Species,
+                                lang_sp = "NL", 
+                                namecolumn = "Soort.NL",
+                                keycolumn = "Key",
+                                coveragecolumn = "Code")
+wdata$BEDEKKING <- wdata$COVERAGE #Bug die nog moet opgelost worden
+
+resultaten <- btyp_calculateAffinity(wdata, reflist$Reference, correct = TRUE, typology = "T3")
+
+for (opname in unique(resultaten$OPNAMECODE)) {
+ print(btyp_plotAffinity(resultaten %>% filter(OPNAMECODE ==  opname))) 
+}
+
+```
+
+
+Voor het huidige voorbeeld zijn er grote gelijkenissen tussen de oude methode en de implementatie in R, maar er zijn ook wel grote verschillen op te merken. 
+
+Dit komt enerzijds omdat de access-implementatie en de R implementatie niet exact hetzelfde is, en mogelijks een iets andere index gebruikt is.
+
+Maar de grootste afwijking wordt verwacht in het omgaan met synomiemen van de soorten. In deze implementatie wordt gewoon de pure wetenschappelijke naam gebruikt als sleutel op basis van de soortenlijst in het package, maar in de applicatie wordt de soortenindeling nog verbeterd en redundante soorten samengevoegd (al ben ik dat niet volledig zeker)
+
+De verschillen komen vooral voor in subcategorieën, dus de hoofdcategorieën zullen maar geregeld eens een verschil geven.
+
+
+```{r vergelijkingmetaccessapp}
+
+#check resultaten met de effectieve classificatie
+resultaat_in_access_applicatie <- 
+  read.csv2(file.path(
+    system.file(package = "inbobostypologie"),
+    "extdata",
+    "voorbeeld_opname_resultaten_access.csv"), 
+    stringsAsFactors = FALSE)
+str(resultaat_in_access_applicatie)
+
+
+
+comparison <- 
+  resultaten %>% 
+  select(OPNAMECODE, BostypeCode, S_aj) %>% 
+  inner_join(resultaat_in_access_applicatie %>% select(Key, Bostype, Score),
+             by = c("OPNAMECODE" = "Key", "BostypeCode" = "Bostype"))
+
+comparison2 <- comparison %>% 
+  group_by(OPNAMECODE) %>% 
+  do({ 
+    data.frame(TYPE_R = .$BostypeCode[which.max(.$S_aj)],
+               TYPE_ACC = .$BostypeCode[which.max(.$Score)])
+    })
+print(comparison2)
+
+comparison3 <- comparison %>% 
+  group_by(OPNAMECODE) %>% 
+    do({ 
+     data.frame(NORM_R = .$S_aj / sum(.$S_aj),
+                NORM_ACC = .$Score / sum(.$Score),
+                BOSTYPE = .$BostypeCode)
+    }) %>% 
+  pivot_longer(cols = c(NORM_R, NORM_ACC))
+  
+ggplot(comparison3, aes(x = BOSTYPE, y = value, fill = name)) + 
+  geom_bar(stat = "identity", position = "dodge", width = 0.7) + 
+  facet_wrap(~OPNAMECODE, ncol = 2) + theme(axis.text.x = element_text(angle = 90, size = 7))
+```
+

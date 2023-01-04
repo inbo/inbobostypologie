@@ -1,0 +1,80 @@
+"Code";"Omschrijving";"TypologieCode";"Opmerking";"RefMin";"RefMax";"Rompgemeenschap"
+"A";"Esdoornen-Abelenbos";"T1";;0,00;0,55;0
+"A";"Esdoornen-Abelenbos";"T2";;0,00;0,58;0
+"A";"Esdoornen-Abelenbos";"T3";;0,00;0,59;0
+"B";"Wilgenvloedbos";"T1";;0,00;0,49;0
+"B";"Wilgenvloedbos";"T2";;0,00;0,51;0
+"B";"Wilgenvloedbos";"T3";;0,00;0,52;0
+"C";"Elzenbroekbos";"T1";;0,00;0,46;0
+"C1";"Elzenbroekbos met Pluimzegge en Moerasvaren";"T2";;0,00;0,45;0
+"C1";"Elzenbroekbos met Pluimzegge en Moerasvaren";"T3";;0,00;0,45;0
+"C2";"Elzenbroekbos met Melkeppe en Wateraardbei";"T2";;0,00;0,45;0
+"C2";"Elzenbroekbos met Melkeppe en Wateraardbei";"T3";;0,00;0,45;0
+"C3";"Elzenbroekbos met Hop en Moerasspirea";"T2";;0,00;0,47;0
+"C3";"Elzenbroekbos met Hop en Moerasspirea";"T3";;0,00;0,47;0
+"D";"Essen-Elzenbos";"T1";;0,00;0,46;0
+"D1";"Essen-Elzenbos met Moerasspirea";"T2";;0,00;0,51;0
+"D1";"Essen-Elzenbos met Moerasspirea";"T3";;0,00;0,50;0
+"D2";"RG [Essen-Elzenbos] met Grote brandnetel";"T2";;0,00;0,37;-1
+"D2";"RG [Essen-Elzenbos] met Grote brandnetel";"T3";;0,00;0,37;-1
+"D3";"RG [Essen-Elzenbos] met Gewone braam";"T2";;0,00;0,36;-1
+"D3";"RG [Essen-Elzenbos] met Gewone braam";"T3";;0,00;0,36;-1
+"D4";"Essen-Elzenbos met Goudveil en Reuzenpaardenstaart";"T2";;0,00;0,49;0
+"D4";"Essen-Elzenbos met Goudveil en Reuzenpaardenstaart";"T3";;0,00;0,48;0
+"D5";"Essen-Elzenbos met Bloedzuring";"T2";;0,00;0,50;0
+"D5";"Essen-Elzenbos met Bloedzuring";"T3";;0,00;0,50;0
+"D6";"Essen-Elzenbos met Gevlekte aronskelk";"T2";;0,00;0,50;0
+"D6";"Essen-Elzenbos met Gevlekte aronskelk";"T3";;0,00;0,49;0
+"E";"Iepen-Essenbos";"T1";;0,00;0,43;0
+"E1";"Iepen-Essenbos met Aalbes en Groot heksenkruid";"T2";;0,00;0,37;0
+"E1";"Iepen-Essenbos met Aalbes en Groot heksenkruid";"T3";;0,00;0,37;0
+"E2";"Iepen-Essenbos met Klimopereprijs en Look-zonder-look";"T2";;0,00;0,44;0
+"E2";"Iepen-Essenbos met Klimopereprijs en Look-zonder-look";"T3";;0,00;0,45;0
+"F";"Esdoornen-Essenbos";"T1";;0,00;0,59;0
+"F";"Esdoornen-Essenbos";"T2";;0,00;0,59;0
+"F";"Esdoornen-Essenbos";"T3";;0,00;0,59;0
+"G";"Essen-Eikenbos";"T1";;0,00;0,53;0
+"G1";"Essen-Eikenbos met Daslook";"T2";;0,00;0,54;0
+"G1a";"Essen-Eikenbos met Daslook, subtype met Bosbingelkruid";"T3";;0,00;0,50;0
+"G1b";"Essen-Eikenbos met Daslook, subtype met Kleine maagdenpalm";"T3";;0,00;0,58;0
+"G2";"Essen-Eikenbos met Wilde hyacint";"T2";;0,00;0,67;0
+"G2a";"Essen-Eikenbos met Wilde hyacint, subtype met Speenkruid";"T3";;0,00;0,57;0
+"G2b";"Essen-Eikenbos met Wilde hyacint, subtype met Brede stekelvaren";"T3";;0,00;0,65;0
+"G3";"Essen-Eikenbos met Gewone salomonszegel en Wilde kamperfoelie";"T2";;0,00;0,41;0
+"G3";"Essen-Eikenbos met Gewone salomonszegel en Wilde kamperfoelie";"T3";;0,00;0,42;0
+"G4";"Essen-Eikenbos met Bosgierstgras en Witte klaverzuring";"T2";;0,00;0,52;0
+"G4";"Essen-Eikenbos met Bosgierstgras en Witte klaverzuring";"T3";;0,00;0,51;0
+"H";"Eiken-Beukenbos";"T1";;0,00;0,55;0
+"H1";"Eiken-Beukenbos met Wilde hyacint";"T2";;0,00;0,54;0
+"H1";"Eiken-Beukenbos met Wilde hyacint";"T3";;0,00;0,55;0
+"H2";"Eiken-Beukenbos met Bosgierstgras en Witte klaverzuring";"T2";;0,00;0,55;0
+"H2a";"Eiken-Beukenbos met Bosgierstgras en Witte klaverzuring, subtype met Brede en Smalle stekelvaren";"T3";;0,00;0,56;0
+"H2b";"Eiken-Beukenbos met Bosgierstgras en Witte klaverzuring, subtype met Ruige veldbies en Bosanemoon";"T3";;0,00;0,55;0
+"H3";"Eiken-Beukenbos met Adelaarsvaren";"T2";;0,00;0,55;0
+"H3a";"Eiken-Beukenbos met Adelaarsvaren, subtype met Dalkruid en Lelietje-van-dalen";"T3";;0,00;0,51;0
+"H3b";"Eiken-Beukenbos met Adelaarsvaren, subtype met dominantie van Adelaarsvaren";"T3";;0,00;0,65;0
+"H3c";"Eiken-Beukenbos met Adelaarsvaren, subtype met Gladde witbol en Valse salie";"T3";;0,00;0,52;0
+"I";"Dennen-Eikenbos";"T1";;0,00;0,60;0
+"I1";"RG [Dennen-Eikenbos] met Gewone braam";"T2";;0,00;0,55;-1
+"I1";"RG [Dennen-Eikenbos] met Gewone braam";"T3";;0,00;0,55;-1
+"I2";"Dennen-Eikenbos met Bochtige smele en Pijpenstrootje";"T2";;0,00;0,66;0
+"I2a";"Dennen-Eikenbos met Bochtige smele en Pijpenstrootje, subtype met Adelaarsvaren";"T3";;0,00;0,49;0
+"I2b";"Dennen-Eikenbos met Bochtige smele en Pijpenstrootje, subtype met Blauwe bosbes";"T3";;0,00;0,68;0
+"I2c";"Dennen-Eikenbos met Bochtige smele en Pijpenstrootje, subtype met dominantie van Bochtige smele";"T3";;0,00;0,70;0
+"I2d";"Dennen-Eikenbos met Bochtige smele en Pijpenstrootje, subtype met dominantie van Pijpenstrootje";"T3";;0,00;0,65;0
+"I2e";"Dennen-Eikenbos met Bochtige smele en Pijpenstrootje, subtype met Struikhei";"T3";;0,00;0,53;0
+"I3";"DG [Dennen-Eikenbos] met Amerikaanse vogelkers";"T2";;0,00;0,62;-1
+"I3";"DG [Dennen-Eikenbos] met Amerikaanse vogelkers";"T3";;0,00;0,61;-1
+"I4";"DG [Dennen-Eikenbos] met Amerikaanse eik";"T2";;0,00;0,60;-1
+"I4";"DG [Dennen-Eikenbos] met Amerikaanse eik";"T3";;0,00;0,59;-1
+"I5";"DG [Dennen-Eikenbos] met Pontische rododendron";"T2";;0,00;0,79;-1
+"I5";"DG [Dennen-Eikenbos] met Pontische rododendron";"T3";;0,00;0,82;-1
+"I6";"RG [Dennen-Eikenbos] met Gestreepte witbol en Gewoon struisgras";"T2";;0,00;0,39;-1
+"I6";"RG [Dennen-Eikenbos] met Gestreepte witbol en Gewoon struisgras";"T3";;0,00;0,37;-1
+"J";"Berken-Elzenbos";"T1";;0,00;0,38;0
+"J1";"Berken-Elzenbos met Zomereik";"T2";;0,00;0,43;0
+"J1";"Berken-Elzenbos met Zomereik";"T3";;0,00;0,41;0
+"J2";"Berken-Elzenbos met Wilde gagel en Veenmos";"T2";;0,00;0,53;0
+"J2";"Berken-Elzenbos met Wilde gagel en Veenmos";"T3";;0,00;0,52;0
+"J3";"Berken-Elzenbos met Geoorde wilg en Veenmos";"T2";;0,00;0,32;0
+"J3";"Berken-Elzenbos met Geoorde wilg en Veenmos";"T3";;0,00;0,31;0

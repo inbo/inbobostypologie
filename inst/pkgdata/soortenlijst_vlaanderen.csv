@@ -1,0 +1,784 @@
+SPECIES_NR;NAME_SCIENTIFIC;NAME_NL
+1;Acer campestre;Spaanse aak
+2;Acer pseudoplatanus;Gewone esdoorn
+4;Achillea millefolium;Duizendblad
+5;Achillea ptarmica;Wilde bertram
+10;Adoxa moschatellina;Muskuskruid
+11;Aegopodium podagraria;Zevenblad
+17;Agrostis gigantea;Hoog struisgras
+17;Agrostis nigra;Hoog struisgras
+17;Agrostis stolonifera subsp. gigantea;Hoog struisgras
+18;Agrostis stolonifera;Fioringras
+19;Agrostis capillaris;Gewoon struisgras
+19;Agrostis pumila;Gewoon struisgras
+19;Agrostis tenuis;Gewoon struisgras
+19;Agrostis vulgaris;Gewoon struisgras
+24;Ajuga reptans;Kruipend zenegroen
+28;Alisma plantago-aquatica;Grote waterweegbree
+29;Alliaria officinalis;Look-zonder-look
+29;Alliaria petiolata;Look-zonder-look
+29;Sisymbrium alliaria;Look-zonder-look
+33;Allium scorodoprasum;Slangenlook
+34;Allium ursinum;Daslook
+35;Allium vineale;Kraailook
+36;Alnus glutinosa;Zwarte els
+37;Alnus incana;Witte els
+40;Alopecurus geniculatus;Geknikte vossenstaart
+42;Alopecurus pratensis;Grote vossenstaart
+54;Anchusa arvalis;Gewone ossentong
+54;Anchusa officinalis;Gewone ossentong
+54;Anchusa pinguis;Gewone ossentong
+56;Anemone nemorosa;Bosanemoon
+58;Anemone ranunculoides;Gele anemoon
+59;Angelica archangelica;Grote engelwortel
+60;Angelica sylvestris;Gewone engelwortel
+66;Anthoxanthum odoratum;Gewoon reukgras
+68;Anthriscus caucalis;Fijne kervel
+68;Anthriscus scandicinus;Fijne kervel
+68;Anthriscus vulgaris;Fijne kervel
+68;Cerefolium anthriscus;Fijne kervel
+70;Anthriscus sylvestris;Fluitenkruid
+70;Cerefolium sylvestre;Fluitenkruid
+78;Apium nodiflorum;Groot moerasscherm
+78;Helosciadium nodiflorum;Groot moerasscherm
+83;Arctium lappa;Grote klit
+83;Arctium majus;Grote klit
+83;Lappa major;Grote klit
+83;Lappa officinalis;Grote klit
+84;Arctium minus;Kleine klit
+84;Lappa minor;Kleine klit
+86;Arctium minus subsp. pubens;Middelste klit
+86;Arctium pubens;Middelste klit
+96;Arrhenatherum elatius;Glanshaver
+96;Avena elatior;Glanshaver
+101;Artemisia vulgaris;Bijvoet
+102;Arum italicum;Italiaanse aronskelk
+103;Arum maculatum;Gevlekte aronskelk
+110;Asperula odorata;Lievevrouwebedstro
+110;Galium odoratum;Lievevrouwebedstro
+119;Athyrium filix-femina;Wijfjesvaren
+121;Atriplex hastata;Spiesmelde
+121;Atriplex prostrata;Spiesmelde
+139;Betula alba;Zachte berk
+139;Betula pubescens;Zachte berk
+140;Betula pendula;Ruwe berk
+141;Bidens cernua;Knikkend tandzaad
+143;Bidens frondosa;Zwart tandzaad
+143;Bidens melanocarpa;Zwart tandzaad
+144;Bidens tripartita;Veerdelig tandzaad
+146;Blechnum spicant;Dubbelloof
+151;Brachypodium sylvaticum;Boskortsteel
+151;Brevipodium sylvaticum;Boskortsteel
+165;Anisantha sterilis;IJle dravik
+165;Bromus sterilis;IJle dravik
+167;Bryonia cretica subsp. dioica;Heggenrank
+167;Bryonia dioica;Heggenrank
+173;Calamagrostis canescens;Hennegras
+173;Calamagrostis lanceolata;Hennegras
+174;Calamagrostis epigejos;Gewoon struisriet
+178;Calla palustris;Slangenwortel
+185;Callitriche stagnalis;Gevleugeld sterrenkroos
+186;Calluna vulgaris;Struikhei
+188;Calystegia sepium;Haagwinde
+188;Convolvulus sepium;Haagwinde
+199;Campanula trachelium;Ruig klokje
+201;Cardamine amara;Bittere veldkers
+202;Cardamine flexuosa;Bosveldkers
+202;Cardamine hirsuta subsp. sylvatica;Bosveldkers
+202;Cardamine sylvatica;Bosveldkers
+203;Cardamine hirsuta;Kleine veldkers
+205;Cardamine pratensis;Pinksterbloem
+208;Carduus crispus;Kruldistel
+211;Carex acuta;Scherpe zegge
+211;Carex gracilis;Scherpe zegge
+212;Carex acutiformis;Moeraszegge
+212;Carex paludosa;Moeraszegge
+215;Carex arenaria;Zandzegge
+219;Carex canescens;Zompzegge
+219;Carex curta;Zompzegge
+228;Carex echinata;Sterzegge
+228;Carex stellulata;Sterzegge
+229;Carex elongata;Elzenzegge
+235;Carex hirta;Ruige zegge
+237;Carex elata;Stijve zegge
+237;Carex hudsonii;Stijve zegge
+237;Carex stricta;Stijve zegge
+244;Carex goodenoughii;Zwarte zegge
+244;Carex goodenowii;Zwarte zegge
+244;Carex nigra;Zwarte zegge
+244;Carex vulgaris;Zwarte zegge
+245;Carex cuprina;Valse voszegge
+245;Carex nemorosa;Valse voszegge
+245;Carex otrubae;Valse voszegge
+245;Carex subvulpina;Valse voszegge
+245;Carex vulpina subsp. nemorosa;Valse voszegge
+246;Carex leporina;Hazezegge
+246;Carex ovalis;Hazezegge
+247;Carex pallescens;Bleke zegge
+249;Carex paniculata;Pluimzegge
+250;Carex maxima;Hangende zegge
+250;Carex pendula;Hangende zegge
+251;Carex pilulifera;Pilzegge
+254;Carex pseudocyperus;Hoge cyperzegge
+258;Carex remota;IJle zegge
+259;Carex riparia;Oeverzegge
+260;Carex ampullacea;Snavelzegge
+260;Carex rostrata;Snavelzegge
+263;Carex strigosa;Slanke zegge
+264;Carex sylvatica;Boszegge
+267;Carex vesicaria;Blaaszegge
+270;Carpinus betulus;Haagbeuk
+273;Castanea sativa;Tamme kastanje
+292;Cerastium arvense;Akkerhoornbloem
+298;Cerastium semidecandrum;Zandhoornbloem
+303;Chaerophyllum temulentum;Dolle kervel
+303;Chaerophyllum temulum;Dolle kervel
+305;Chelidonium majus;Stinkende gouwe
+315;Chenopodium polyspermum;Korrelganzenvoet
+319;Chrysanthemum leucanthemum;Margriet
+319;Leucanthemum vulgare;Margriet
+322;Chrysosplenium alternifolium;Verspreidbladig goudveil
+323;Chrysosplenium oppositifolium;Paarbladig goudveil
+329;Circaea lutetiana;Groot heksenkruid
+331;Cirsium arvense;Akkerdistel
+334;Cirsium oleraceum;Moesdistel
+335;Cirsium palustre;Kale jonker
+336;Circium lanceolatum;Speerdistel
+336;Cirsium vulgare;Speerdistel
+338;Claytonia perfoliata;Witte winterpostelein
+338;Montia perfoliata;Witte winterpostelein
+339;Clematis vitalba;Bosrank
+345;Colchicum autumnale;Herfsttijloos
+346;Comarum palustre;Wateraardbei
+346;Potentilla palustris;Wateraardbei
+349;Convallaria majalis;Lelietje-van-dalen
+350;Convolvulus arvensis;Akkerwinde
+355;Cornus sanguinea;Rode kornoelje
+361;Corydalis cava;Holwortel
+362;Ceratocapnos claviculata;Rankende helmbloem
+362;Corydalis claviculata;Rankende helmbloem
+365;Corydalis bulbosa;Vingerhelmbloem
+365;Corydalis solida;Vingerhelmbloem
+366;Corylus avellana;Hazelaar
+367;Corynephorus canescens;Buntgras
+367;Weingaertneria canescens;Buntgras
+369;Crataegus monogyna;Eenstijlige meidoorn
+372;Crepis capillaris;Klein streepzaad
+372;Crepis virens;Klein streepzaad
+373;Crepis paludosa;Moerasstreepzaad
+385;Cynoglossum officinale;Veldhondstong
+390;Dactylis glomerata;Gewone kropaar
+397;Aira cespitosa;Ruwe smele
+397;Deschampsia cespitosa;Ruwe smele
+398;Aira flexuosa;Bochtige smele
+398;Deschampsia flexuosa;Bochtige smele
+406;Digitalis purpurea;Vingerhoedskruid
+419;Dryopteris austriaca;Brede stekelvaren
+419;Dryopteris dilatata;Brede stekelvaren
+421;Dryopteris filix-mas;Mannetjesvaren
+426;Dryopteris carthusiana;Smalle stekelvaren
+426;Dryopteris spinulosa;Smalle stekelvaren
+427;Dryopteris thelypteris;Moerasvaren
+427;Polystichum thelypteris;Moerasvaren
+427;Thelypteris palustris;Moerasvaren
+427;Thelypteris thelypteroides subsp. glabra;Moerasvaren
+446;Agropyron repens;Kweek
+446;Elymus repens;Kweek
+446;Elytrigia repens;Kweek
+448;Epilobium adenocaulon;Beklierde basterdwederik
+448;Epilobium ciliatum;Beklierde basterdwederik
+450;Chamaenerion angustifolium;Wilgenroosje
+450;Chamerion angustifolium;Wilgenroosje
+450;Epilobium angustifolium;Wilgenroosje
+450;Epilobium spicatum;Wilgenroosje
+451;Epilobium hirsutum;Harig wilgenroosje
+453;Epilobium lanceolatum;Lancetbladige basterdwederik
+454;Epilobium montanum;Bergbasterdwederik
+455;Epilobium obscurum;Donkergroene basterdwederik
+456;Epilobium palustre;Moerasbasterdwederik
+457;Epilobium parviflorum;Viltige basterdwederik
+458;Epilobium roseum;Bleke basterdwederik
+460;Epipactis helleborine;Brede wespenorchis
+460;Epipactis latifolia;Brede wespenorchis
+460;Helleborine latifolia;Brede wespenorchis
+462;Equisetum arvense;Heermoes
+463;Equisetum fluviatile;Holpijp
+463;Equisetum limosum;Holpijp
+466;Equisetum palustre;Lidrus
+469;Equisetum maximum;Reuzenpaardenstaart
+469;Equisetum telmateia;Reuzenpaardenstaart
+472;Erica cinerea;Rode dophei
+473;Erica tetralix;Gewone dophei
+475;Conyza canadensis;Canadese fijnstraal
+475;Erigeron canadensis;Canadese fijnstraal
+481;Erodium bipinnatum;Kleverige reigersbek
+481;Erodium cicutarium var. albinum;Kleverige reigersbek
+481;Erodium glutinosum;Kleverige reigersbek
+481;Erodium lebelii;Kleverige reigersbek
+489;Euonymus europaeus;Wilde kardinaalsmuts
+489;Evonymus europeaeus;Wilde kardinaalsmuts
+490;Eupatorium cannabinum;Koninginnenkruid
+491;Euphorbia amygdaloides;Amandelwolfsmelk
+491;Euphorbia silvatica;Amandelwolfsmelk
+513;Fagus sylvatica;Beuk
+514;Festuca arundinacea;Rietzwenkgras
+514;Festuca elatior subsp. arundinacea;Rietzwenkgras
+515;Bromus giganteus;Reuzenzwenkgras
+515;Festuca gigantea;Reuzenzwenkgras
+518;Festuca ovina;Schapengras
+526;Filipendula ulmaria;Moerasspirea
+526;Spiraea ulmaria;Moerasspirea
+526;Ulmaria palustris;Moerasspirea
+529;Fragaria vesca;Bosaardbei
+530;Frangula alnus;Sporkehout
+530;Rhamnus frangula;Sporkehout
+531;Fraxinus excelsior;Es
+532;Fritillaria meleagris;Kievitsbloem
+536;Gagea spathacea;Schedegeelster
+538;Galanthus nivalis;Sneeuwklokje
+546;Galium aparine;Kleefkruid
+548;Cruciata chersonensis;Kruisbladwalstro
+548;Cruciata laevipes;Kruisbladwalstro
+548;Galium cruciata;Kruisbladwalstro
+549;Galium harcynicum;Liggend walstro
+549;Galium hercynicum;Liggend walstro
+549;Galium saxatile;Liggend walstro
+550;Galium mollugo;Glad walstro
+554;Galium sylvaticum;Boswalstro
+556;Galium uliginosum;Ruw walstro
+557;Galium verum;Geel walstro
+558;Genista anglica;Stekelbrem
+571;Geranium molle;Zachte ooievaarsbek
+576;Geranium robertianum;Gewoon robertskruid
+579;Geum urbanum;Geel nagelkruid
+582;Glechoma hederacea;Hondsdraf
+584;Glyceria fluitans;Mannagras
+585;Glyceria aquatica;Liesgras
+585;Glyceria maxima;Liesgras
+585;Glyceria spectabilis;Liesgras
+589;Filaginella uliginosa;Moerasdroogbloem
+589;Gnaphalium uliginosum;Moerasdroogbloem
+598;Hedera helix;Klimop
+605;Helleborus viridis;Wrangwortel
+607;Heracleum sphondylium;Gewone berenklauw
+610;Hieracium amplexicaule;Stengelomvattend havikskruid
+617;Hieracium argillaceum;Dicht havikskruid
+617;Hieracium lachenalii;Dicht havikskruid
+617;Hieracium vulgatum;Dicht havikskruid
+618;Hieracium laevigatum;Stijf havikskruid
+618;Hieracium rigidum;Stijf havikskruid
+618;Hieracium tridentatum;Stijf havikskruid
+621;Hieracium pilosella;Muizenoor
+624;Hieracium boreale;Boshavikskruid
+624;Hieracium sabaudum;Boshavikskruid
+625;Hieracium umbellatum;Schermhavikskruid
+629;Hippophae rhamnoides;Duindoorn
+631;Holcus lanatus;Gestreepte witbol
+632;Holcus mollis;Gladde witbol
+638;Hottonia palustris;Waterviolier
+639;Humulus lupulus;Hop
+641;Hydrocotyle vulgaris;Waternavel
+645;Hypericum hirsutum;Ruig hertshooi
+646;Hypericum humifusum;Liggend hertshooi
+647;Hypericum dubium;Kantig hertshooi
+647;Hypericum maculatum subsp. obtusiusculum;Kantig hertshooi
+649;Hypericum perforatum;Sint-janskruid
+650;Hypericum pulchrum;Fraai hertshooi
+651;Hypericum acutum;Gevleugeld hertshooi
+651;Hypericum quadrangulum;Gevleugeld hertshooi
+651;Hypericum tetrapterum;Gevleugeld hertshooi
+654;Hypochaeris radicata;Gewoon biggenkruid
+658;Ilex aquifolium;Hulst
+660;Impatiens noli-tangere;Groot springzaad
+661;Impatiens parviflora;Klein springzaad
+665;Iris pseudacorus;Gele lis
+670;Juncus acutiflorus;Veldrus
+670;Juncus sylvaticus;Veldrus
+675;Juncus bufonius;Greppelrus
+679;Juncus conglomeratus;Biezenknoppen
+679;Juncus leersii;Biezenknoppen
+679;Juncus subuliflorus;Biezenknoppen
+680;Juncus effusus;Pitrus
+684;Juncus glaucus;Zeegroene rus
+684;Juncus inflexus;Zeegroene rus
+687;Juncus squarrosus;Trekrus
+690;Juncus macer;Tengere rus
+690;Juncus tenuis;Tengere rus
+700;Lamium album;Witte dovenetel
+702;Galeobdolon luteum;Gele dovenetel
+702;Lamiastrum galeobdolon;Gele dovenetel
+702;Lamium galeobdolon;Gele dovenetel
+708;Lampsana communis;Akkerkool
+708;Lapsana communis;Akkerkool
+715;Lathyrus pratensis;Veldlathyrus
+723;Lemna minor;Klein kroos
+736;Ligustrum vulgare;Wilde liguster
+745;Linaria vulgaris;Vlasbekje
+750;Listera ovata;Grote keverorchis
+756;Lolium perenne;Engels raaigras
+759;Lonicera periclymenum;Wilde kamperfoelie
+760;Lonicera xylosteum;Rode kamperfoelie
+763;Lotus pedunculatus;Moerasrolklaver
+763;Lotus uliginosus;Moerasrolklaver
+766;Luzula campestris;Gewone veldbies
+769;Luzula albida;Witte veldbies
+769;Luzula luzuloides;Witte veldbies
+769;Luzula nemorosa;Witte veldbies
+770;Luzula pilosa;Ruige veldbies
+770;Luzula vernalis;Ruige veldbies
+771;Luzula maxima;Grote veldbies
+771;Luzula sylvatica;Grote veldbies
+772;Lychnis flos-cuculi;Echte koekoeksbloem
+772;Silene flos-cuculi;Echte koekoeksbloem
+780;Lycopus europaeus;Wolfspoot
+781;Lysimachia nemorum;Boswederik
+782;Lysimachia nummularia;Penningkruid
+783;Lysimachia thyrsiflora;Moeraswederik
+783;Naumburgia thyrsiflora;Moeraswederik
+784;Lysimachia vulgaris;Grote wederik
+785;Lythrum salicaria;Grote kattenstaart
+786;Maianthemum bifolium;Dalkruid
+795;Matricaria maritima;Reukeloze kamille
+795;Tripleurospermum maritimum;Reukeloze kamille
+799;Medicago lupulina;Hopklaver
+804;Melampyrum pratense;Hengel
+805;Melandrium album;Avondkoekoeksbloem
+805;Silene alba;Avondkoekoeksbloem
+805;Silene latifolia subsp. alba;Avondkoekoeksbloem
+805;Silene pratensis;Avondkoekoeksbloem
+807;Melandrium dioicum;Dagkoekoeksbloem
+807;Melandrium rubrum;Dagkoekoeksbloem
+807;Melandrium silvestre;Dagkoekoeksbloem
+807;Silene dioica;Dagkoekoeksbloem
+808;Melica uniflora;Eenbloemig parelgras
+813;Mentha aquatica;Watermunt
+814;Mentha arvensis;Akkermunt
+821;Menyanthes trifoliata;Waterdrieblad
+822;Mercurialis annua;Tuinbingelkruid
+823;Mercurialis perennis;Bosbingelkruid
+824;Mespilus germanica;Mispel
+826;Milium effusum;Bosgierstgras
+830;Moehringia trinervia;Drienerfmuur
+832;Molinia caerulea;Pijpenstrootje
+839;Lactuca muralis;Muursla
+839;Mycelis muralis;Muursla
+840;Myosotis arvensis;Akkervergeet-mij-nietje
+840;Myosotis intermedia;Akkervergeet-mij-nietje
+841;Myosotis cespitosa;Zompvergeet-mij-nietje
+841;Myosotis laxa;Zompvergeet-mij-nietje
+841;Myosotis laxa subsp. cespitosa;Zompvergeet-mij-nietje
+841;Myosotis lingulata;Zompvergeet-mij-nietje
+841;Myosotis oraria;Zompvergeet-mij-nietje
+843;Myosotis collina;Ruw vergeet-mij-nietje
+843;Myosotis hispida;Ruw vergeet-mij-nietje
+843;Myosotis ramosissima;Ruw vergeet-mij-nietje
+844;Myosotis laxiflora;Moeras vergeet-mij-nietje
+844;Myosotis palustris;Moeras vergeet-mij-nietje
+844;Myosotis scorpioides;Moeras vergeet-mij-nietje
+844;Myosotis strigulosa;Moeras vergeet-mij-nietje
+846;Myosotis sylvatica;Bosvergeet-mij-nietje
+847;Myosoton aquaticum;Watermuur
+847;Stellaria aquatica;Watermuur
+849;Gale palustris;Wilde gagel
+849;Myrica gale;Wilde gagel
+868;Oenanthe aquatica;Watertorkruid
+868;Oenanthe phellandrium;Watertorkruid
+887;Orchis mascula;Mannetjesorchis
+896;Ornithogalum umbellatum;Gewone vogelmelk
+908;Osmunda regalis;Koningsvaren
+909;Oxalis acetosella;Witte klaverzuring
+911;Oxalis europaea;Stijve klaverzuring
+911;Oxalis fontana;Stijve klaverzuring
+911;Oxalis stricta;Stijve klaverzuring
+920;Paris quadrifolia;Eenbes
+929;Peucedanum palustre;Melkeppe
+929;Thysselinum palustre;Melkeppe
+930;Baldingera arundinacea;Rietgras
+930;Digraphis arundinacea;Rietgras
+930;Phalaris arundinacea;Rietgras
+930;Phalaroides arundinacea;Rietgras
+930;Typhoides arundinacea;Rietgras
+933;Phragmites australis;Riet
+933;Phragmites communis;Riet
+935;Phyteuma nigrum;Zwartblauwe rapunzel
+935;Phyteuma spicatum subsp. nigrum;Zwartblauwe rapunzel
+940;Pimpinella magna;Grote bevernel
+940;Pimpinella major;Grote bevernel
+943;Pinus sylvestris;Grove den
+946;Plantago lanceolata;Smalle weegbree
+952;Poa annua;Straatgras
+954;Poa chaixii;Bergbeemdgras
+954;Poa sudetica;Bergbeemdgras
+954;Poa sylvatica;Bergbeemdgras
+955;Poa compressa;Plat beemdgras
+956;Poa nemoralis;Schaduwgras
+957;Poa palustris;Moerasbeemdgras
+957;Poa serotina;Moerasbeemdgras
+958;Poa pratensis;Veldbeemdgras
+959;Poa trivialis;Ruw beemdgras
+964;Polygonatum multiflorum;Gewone salomonszegel
+966;Polygonatum verticillatum;Kranssalomonszegel
+967;Persicaria amphibia;Veenwortel
+967;Polygonum amphibium;Veenwortel
+968;Polygonum aviculare;Varkensgras
+969;Persicaria bistorta;Adderwortel
+969;Polygonum bistorta;Adderwortel
+970;Bilderdykia convolvulus;Zwaluwtong
+970;Fallopia convolvulus;Zwaluwtong
+970;Polygonum convolvulus;Zwaluwtong
+971;Bilderdykia dumetorum;Heggenduizendknoop
+971;Fallopia dumetorum;Heggenduizendknoop
+971;Polygonum dumetorum;Heggenduizendknoop
+972;Persicaria hydropiper;Waterpeper
+972;Polygonum hydropiper;Waterpeper
+973;Persicaria lapathifolia;Beklierde duizendknoop
+973;Polygonum lapathifolium;Beklierde duizendknoop
+975;Persicaria minor;Kleine duizendknoop
+975;Polygonum minus;Kleine duizendknoop
+976;Persicaria dubia;Zachte duizendknoop
+976;Persicaria mitis;Zachte duizendknoop
+976;Polygonum mite;Zachte duizendknoop
+977;Persicaria maculosa;Perzikkruid
+977;Polygonum persicaria;Perzikkruid
+978;Polypodium vulgare;Eikvaren
+978;Polypodium vulgare subsp. vulgare;Eikvaren
+979;Polystichum aculeatum;Stijve naaldvaren
+980;Populus alba;Witte abeel
+981;Populus canescens;Grauwe abeel
+983;Populus tremula;Ratelpopulier
+1005;Potentilla anglica;Kruipganzerik
+1005;Potentilla procumbens;Kruipganzerik
+1006;Potentilla anserina;Zilverschoon
+1008;Potentilla erecta;Tormentil
+1008;Potentilla silvestris;Tormentil
+1008;Potentilla tormentilla;Tormentil
+1008;Tormentilla erecta;Tormentil
+1010;Potentilla reptans;Vijfvingerkruid
+1011;Fragaria sterilis;Aardbeiganzerik
+1011;Potentilla fragariastrum;Aardbeiganzerik
+1011;Potentilla sterilis;Aardbeiganzerik
+1014;Primula elatior;Slanke sleutelbloem
+1015;Primula officinalis;Gulden sleutelbloem
+1015;Primula veris;Gulden sleutelbloem
+1016;Primula acaulis;Stengelloze sleutelbloem
+1016;Primula grandiflora;Stengelloze sleutelbloem
+1016;Primula vulgaris;Stengelloze sleutelbloem
+1017;Prunella vulgaris;Gewone brunel
+1018;Cerasus avium;Zoete kers
+1018;Prunus avium;Zoete kers
+1019;Cerasus padus;Vogelkers
+1019;Prunus padus;Vogelkers
+1019;Prunus racemosa;Vogelkers
+1020;Prunus serotina;Amerikaanse vogelkers
+1021;Prunus spinosa;Sleedoorn
+1022;Pteridium aquilinum;Adelaarsvaren
+1022;Pteris aquilina;Adelaarsvaren
+1032;Pulmonaria officinalis;Gevlekt longkruid
+1032;Pulmonaria officinalis subsp. maculosa;Gevlekt longkruid
+1036;Quercus petraea;Wintereik
+1036;Quercus sessiliflora;Wintereik
+1036;Quercus sessilis;Wintereik
+1037;Quercus pedunculata;Zomereik
+1037;Quercus robur;Zomereik
+1040;Ranunculus acris;Scherpe boterbloem
+1043;Ranunculus auricomus;Gulden boterbloem
+1048;Ranunculus flammula;Egelboterbloem
+1052;Ranunculus nemorosus var. angustifolius;Kalkboterbloem
+1052;Ranunculus polyanthemoides;Kalkboterbloem
+1052;Ranunculus polyanthemos subsp. polyanthemoides;Kalkboterbloem
+1052;Ranunculus serpens subsp. polyanthemoides;Kalkboterbloem
+1056;Ranunculus repens;Kruipende boterbloem
+1058;Ranunculus sceleratus;Blaartrekkende boterbloem
+1070;Ribes nigrum;Zwarte bes
+1071;Ribes rubrum;Aalbes
+1071;Ribes sylvestre;Aalbes
+1071;Ribes vulgare;Aalbes
+1072;Ribes grossularia;Kruisbes
+1072;Ribes uva-crispa;Kruisbes
+1073;Agropyron caninum;Hondstarwegras
+1073;Elymus caninus;Hondstarwegras
+1073;Roegneria canina;Hondstarwegras
+1074;Nasturtium amphibium;Gele waterkers
+1074;Rorippa amphibia;Gele waterkers
+1076;Nasturtium palustre;Moeraskers
+1076;Rorippa islandica;Moeraskers
+1076;Rorippa palustris;Moeraskers
+1080;Rosa arvensis;Bosroos
+1083;Rosa pimpinellifolia;Duinroos
+1083;Rosa spinosissima;Duinroos
+1086;Rosa mollissima;Viltroos
+1086;Rosa tomentosa;Viltroos
+1089;Rubus caesius;Dauwbraam
+1091;Rubus idaeus;Framboos
+1093;Acetosa pratensis;Veldzuring
+1093;Rumex acetosa;Veldzuring
+1094;Acetosella vulgaris;Schapenzuring
+1094;Rumex acetosella;Schapenzuring
+1097;Rumex conglomeratus;Kluwenzuring
+1098;Rumex crispus;Krulzuring
+1099;Rumex hydrolapathum;Waterzuring
+1101;Rumex obtusifolius;Ridderzuring
+1103;Rumex nemorosus;Bloedzuring
+1103;Rumex sanguineus;Bloedzuring
+1106;Acetosa thyrsiflora;Geoorde zuring
+1106;Rumex acetosa subsp. thyrsiflorus;Geoorde zuring
+1106;Rumex thyrsiflorus;Geoorde zuring
+1116;Salix alba;Schietwilg
+1117;Salix aurita;Geoorde wilg
+1118;Salix caprea;Boswilg
+1119;Salix cinerea;Grauwe wilg
+1121;Salix fragilis;Kraakwilg
+1124;Salix repens;Kruipwilg
+1133;Sambucus nigra;Gewone vlier
+1134;Sambucus racemosa;Trosvlier
+1138;Sanicula europaea;Heelkruid
+1140;Cytisus scoparius;Brem
+1140;Sarothamnus scoparius;Brem
+1144;Saxifraga granulata;Knolsteenbreek
+1151;Endymion non-scriptus;Wilde hyacint
+1151;Hyacinthoides non-scripta;Wilde hyacint
+1151;Scilla non-scripta;Wilde hyacint
+1151;Scilla nutans;Wilde hyacint
+1160;Scirpus sylvaticus;Bosbies
+1167;Scrophularia aquatica;Geoord helmkruid
+1167;Scrophularia auriculata;Geoord helmkruid
+1167;Scrophularia balbisii;Geoord helmkruid
+1170;Scrophularia nodosa;Knopig helmkruid
+1173;Scutellaria galericulata;Blauw glidkruid
+1174;Scutellaria minor;Klein glidkruid
+1175;Sedum acre;Muurpeper
+1186;Senecio fluviatilis;Rivierkruiskruid
+1186;Senecio salicetorum;Rivierkruiskruid
+1186;Senecio sarracenicus;Rivierkruiskruid
+1187;Senecio fuchsii;Schaduwkruiskruid
+1187;Senecio nemorensis subsp. fuchsii;Schaduwkruiskruid
+1187;Senecio ovatus;Schaduwkruiskruid
+1190;Senecio sylvaticus;Boskruiskruid
+1191;Senecio viscosus;Kleverig kruiskruid
+1192;Senecio vulgaris;Klein kruiskruid
+1199;Danthonia decumbens;Tandjesgras
+1199;Sieglingia decumbens;Tandjesgras
+1199;Triodia decumbens;Tandjesgras
+1215;Berula erecta;Kleine watereppe
+1215;Sium angustifolium;Kleine watereppe
+1215;Sium erectum;Kleine watereppe
+1216;Sium latifolium;Grote watereppe
+1218;Solanum dulcamara;Bitterzoet
+1222;Solidago virgaurea;Echte guldenroede
+1224;Sonchus asper;Gekroesde melkdistel
+1225;Sonchus oleraceus;Gewone melkdistel
+1227;Sorbus aucuparia;Wilde lijsterbes
+1229;Sparganium erectum;Grote egelskop
+1229;Sparganium ramosum;Grote egelskop
+1245;Stachys palustris;Moerasandoorn
+1246;Stachys sylvatica;Bosandoorn
+1247;Stellaria alsine;Moerasmuur
+1247;Stellaria uliginosa;Moerasmuur
+1248;Stellaria graminea;Grasmuur
+1249;Stellaria holostea;Grote muur
+1250;Stellaria media;Vogelmuur
+1252;Stellaria media subsp. apetala;Duinvogelmuur
+1252;Stellaria media subsp. pallida;Duinvogelmuur
+1252;Stellaria pallida;Duinvogelmuur
+1253;Stellaria nemorum;Bosmuur
+1258;Scabiosa succisa;Blauwe knoop
+1258;Succisa pratensis;Blauwe knoop
+1259;Symphytum officinale;Gewone smeerwortel
+1260;Chrysanthemum tanacetum;Boerenwormkruid
+1260;Chrysanthemum vulgare;Boerenwormkruid
+1260;Tanacetum vulgare;Boerenwormkruid
+1261;Taraxacum laevigatum;Zandpaardenbloem
+1267;Taxus baccata;Taxus
+1273;Teucrium scorodonia;Valse salie
+1275;Thalictrum flavum;Poelruit
+1285;Tilia cordata;Winterlinde
+1285;Tilia parvifolia;Winterlinde
+1285;Tilia ulmifolia;Winterlinde
+1286;Tilia platyphyllos;Zomerlinde
+1289;Torilis anthriscus;Heggendoornzaad
+1289;Torilis japonica;Heggendoornzaad
+1305;Trifolium pratense;Rode klaver
+1306;Trifolium repens;Witte klaver
+1316;Tussilago farfara;Klein hoefblad
+1318;Typha latifolia;Grote lisdodde
+1320;Ulmus campestris;Gladde iep
+1320;Ulmus carpinifolia;Gladde iep
+1320;Ulmus minor;Gladde iep
+1320;Ulmus vulgaris;Gladde iep
+1321;Urtica dioica;Grote brandnetel
+1322;Urtica urens;Kleine brandnetel
+1329;Vaccinium myrtillus;Blauwe bosbes
+1331;Vaccinium vitis-idaea;Rode bosbes
+1332;Valeriana dioica;Kleine valeriaan
+1333;Valeriana officinalis;Echte valeriaan
+1333;Valeriana procurrens;Echte valeriaan
+1333;Valeriana repens;Echte valeriaan
+1343;Verbascum thapsus;Koningskaars
+1345;Veronica agrestis;Akkerereprijs
+1346;Veronica anagallis-aquatica;Waterereprijs
+1347;Veronica arvensis;Veldereprijs
+1349;Veronica beccabunga;Beekpunge
+1351;Veronica chamaedrys;Gewone ereprijs
+1352;Veronica hederifolia;Klimopereprijs
+1354;Veronica montana;Bosereprijs
+1355;Veronica officinalis;Mannetjesereprijs
+1367;Viburnum opulus;Gelderse roos
+1368;Vicia angustifolia;Smalle wikke
+1368;Vicia sativa subsp. angustifolia;Smalle wikke
+1368;Vicia sativa subsp. nigra;Smalle wikke
+1369;Vicia cracca;Vogelwikke
+1370;Vicia hirsuta;Ringelwikke
+1373;Vicia sepium;Heggenwikke
+1377;Vinca minor;Kleine maagdenpalm
+1378;Viola arvensis;Akkerviooltje
+1378;Viola tricolor subsp. arvensis;Akkerviooltje
+1382;Viola hirta;Ruig viooltje
+1384;Viola odorata;Maarts viooltje
+1385;Viola palustris;Moerasviooltje
+1422;Cornus mas;Gele kornoelje
+1460;Caltha palustris subsp. araneosa;Spindotterbloem
+1474;Festuca capillata;Fijn schapengras
+1474;Festuca filiformis;Fijn schapengras
+1474;Festuca ovina subsp. capillata;Fijn schapengras
+1474;Festuca ovina subsp. tenuifolia;Fijn schapengras
+1474;Festuca tenuifolia;Fijn schapengras
+1538;Veronica hederifolia subsp. hederifolia;Akker-klimopereprijs
+1539;Veronica hederifolia subsp. lucorum;Bos-klimopereprijs
+1539;Veronica hederifolia var. lucorum;Bos-klimopereprijs
+1539;Veronica sublobata;Bos-klimopereprijs
+1544;Agrostis canina;Moerasstruisgras
+1545;Agrostis canina subsp. montana;Zandstruisgras
+1545;Agrostis canina var. arida;Zandstruisgras
+1545;Agrostis coarctata;Zandstruisgras
+1545;Agrostis pusilla;Zandstruisgras
+1545;Agrostis stricta;Zandstruisgras
+1545;Agrostis vinealis;Zandstruisgras
+1593;Salix x multinervis;Geoorde x Grauwe wilg
+1594;Salix x rubens;Schietwilg x Kraakwilg
+1607;Dryopteris affinis;Geschubde mannetjesvaren
+1607;Dryopteris paleacea;Geschubde mannetjesvaren
+1607;Dryopteris pseudomas;Geschubde mannetjesvaren
+1616;Dactylorchis maculata;Gevlekte orchis
+1616;Dactylorhiza maculata;Gevlekte orchis
+1616;Orchis maculata;Gevlekte orchis
+1634;Rubus fruticosus agg.;Gewone braam
+1642;Epilobium tetragonum;Kantige basterdwederik
+1643;Rosa canina;Hondsroos
+1643;Rosa sepium;Hondsroos
+1645;Rosa eglanteria;Egelantier
+1645;Rosa rubiginosa;Egelantier
+1733;Senecio inaequidens;Bezemkruiskruid
+1850;Acer platanoides;Noorse esdoorn
+1851;Aesculus hippocastanum;Witte paardenkastanje
+1852;Amelanchier canadensis;Amerikaans krentenboompje
+1852;Amelanchier laevis;Amerikaans krentenboompje
+1852;Amelanchier lamarckii;Amerikaans krentenboompje
+1862;Impatiens glandulifera;Reuzenbalsemien
+1862;Impatiens roylei;Reuzenbalsemien
+1876;Quercus rubra;Amerikaanse eik
+1877;Robinia pseudoacacia;Robinia
+1884;Sambucus nigra cv. laciniata;Peterselievlier
+1895;Ulmus glabra;Ruwe iep
+1895;Ulmus montana;Ruwe iep
+1895;Ulmus scabra;Ruwe iep
+1904;Asparagus officinalis;Asperge
+1921;Festuca rubra;Rood zwenkgras
+1931;Lotus corniculatus;Gewone en Smalle rolklaver
+1933;Luzula multiflora;Veelbloemige veldbies
+1934;Malus sylvestris;Wilde appel
+1934;Pyrus malus;Wilde appel
+1960;Vicia sativa;Voederwikke, vergeten wikke en smalle wikke
+1966;Viola reichenbachiana + Viola riviniana;Donkersporig + Bleeksporig bosviooltje
+2105;Rhododendron ponticum;Pontische rododendron
+2107;Symphoricarpos albus;Sneeuwbes
+2203;Abies grandis;Reuzenzilverspar
+2222;Galeopsis bifida + Galeopsis tetrahit;Gespleten + Gewone hennepnetel
+2229;Larix decidua;Europese lork
+2230;Larix kaempferi;Japanse lork
+2238;Picea abies;Zilverspar
+2247;Pinus nigra var. maritima;Corsicaanse den
+2248;Pinus pinaster;Zeeden
+2249;Pinus strobus;Weymouthden
+2254;Populus x canadensis;Canadapopulier
+2259;Pseudotsuga menziesii;Douglasspar
+2280;Tsuga heterophylla;Westelijke hemlockspar
+2290;Senecio jacobaea;Jakobskruiskruid
+2314;Cerastium fontanum;Gewone hoornbloem
+2314;Cerastium vulgatum;Gewone hoornbloem
+2320;Plantago major;Grote weegbree
+2323;Solanum nigrum;Zwarte nachtschade
+2334;Arenaria serpyllifolia;Zandmuur
+2338;Caltha palustris;Dotterbloem
+2343;Juncus bulbosus;Knolrus
+2343;Juncus supinus;Knolrus
+2348;Narcissus pseudonarcissus;Wilde narcis
+2358;Sedum telephium;Hemelsleutel
+2376;Galium palustre;Moeraswalstro
+2385;Phleum pratense;Gewoon timoteegras
+2396;Lamium purpureum;Paarse dovenetel
+2402;Ficaria ranunculoides;Speenkruid
+2402;Ficaria verna;Speenkruid
+2402;Ranunculus ficaria;Speenkruid
+2406;Scrophularia alata;Gevleugeld helmkruid
+2406;Scrophularia ehrhartii;Gevleugeld helmkruid
+2406;Scrophularia umbrosa;Gevleugeld helmkruid
+2417;Hieracium murorum;Muurhavikskruid
+2420;Equisetum hyemale;Schaafstro
+2435;Phyteuma spicatum;Witte rapunzel
+2448;Lathraea clandestina;Paarse schubwortel
+5123;Quercus palustris;Moeraseik
+5180;Larix x eurolepis;Europese x Japanse lork
+5191;Ulmus x hollandica;Hollandse iep
+5207;Dryopteris carthusiana + Dryopteris dilatata;Smalle + Brede stekelvaren
+6001;Acer species;Esdoorn species
+6013;Agrostis species;Struisgras species
+6048;Arctium species;Klit species
+6077;Betula species;Berk species
+6094;Calamagrostis species;Struisriet species
+6097;Callitriche species;Sterrenkroos species
+6103;Cardamine species;Veldkers species
+6105;Carduus species;Distel species
+6106;Carex species;Zegge species
+6132;Cirsium species;Vederdistel species
+6153;Crataegus species;Meidoorn species
+6181;Dryopteris species;Niervaren species
+6192;Epilobium species;Basterdwederik species
+6193;Epipactis species;Wespenorchis species
+6194;Equisetum species;Paardenstaart species
+6225;Galium species;Walstro species
+6251;Hieracium species;Havikskruid species
+6258;Holcus species;Witbol species
+6268;Hypericum species;Hertshooi species
+6279;Juncus species;Rus species
+6311;Lotus species;Rolklaver species
+6315;Luzula species;Veldbies species
+6322;Lysimachia species;Wederik species
+6352;Myosotis species;Vergeet-mij-nietje species
+6359;Narcissus species;Narcis species
+6380;Ornithogalum species;Vogelmelk species
+6411;Pinus species;Den species
+6414;Poa species;Beemdgras species
+6417;Polygonum species;Duizendknoop species
+6420;Populus species;Populier species
+6426;Prunus species;Kers species
+6435;Quercus species;Eik species
+6450;Rosa species;Roos species
+6452;Rubus species;Braam species
+6454;Rumex species;Zuring species
+6459;Salix species;Wilg species
+6483;Senecio species;Kruiskruid species
+6498;Sonchus species;Melkdistel species
+6508;Stellaria species;Muur species
+6517;Taraxacum species;Paardenbloem species
+6527;Tilia species;Linde species
+6532;Trifolium species;Klaver species
+6541;Ulmus species;Iep species
+6551;Veronica species;Ereprijs species
+6553;Vicia species;Wikke species
+6566;Larix species;Lork species
+6622;Tsuga species;Hemlockspar species
+6654;Chamaecyparis species;Chamaecyparis species
+9340;Salix aurita x caprea;Geoorde x Boswilg
+10095;Tamus communis;Spekwortel
+10099;Festuca altissima;Boszwenkgras
+10099;Festuca silvatica;Boszwenkgras

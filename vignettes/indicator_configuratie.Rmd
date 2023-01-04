@@ -1,0 +1,100 @@
+---
+title: "indicator_configuratie"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{indicator_configuratie}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Inleiding
+
+Dit document is een weerslag van de tutorial die zit bij de originele Access-applicatie om een indicatorberekening te configureren. Het resultaat hiervan is een indicator die dan gebruikt kan worden om kruidlaagopnames te classificeren in bostypes.
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(inbobostypologie)
+```
+
+
+## Gegevens
+
+Haal de benodigde gegevens op. 
+Hiervoor gebruiken we de soortenlijst die bij het pakket geleverd is.
+
+```{r inlezensoorten}
+#Get the available data
+
+basepath <- system.file(package = "inbobostypologie")
+
+path <- file.path(basepath, "pkgdata", "soortenlijst_vlaanderen.csv")
+Soortenlijst <- read.csv2(path)
+
+``` 
+
+
+Daarnaast lezen we de referentiedata in. Deze bevat voor alle gewenste bostypes een karakteristieke verdeling van soorten en hun bedekking, specifiek voor ieder bostype. 
+
+```{r inlezenreferentiedata}
+path <- file.path(basepath, "extdata", "tutorial_referentieopname.csv")
+RefOpnames <- read.csv2(path)
+``` 
+
+
+## Berekening
+
+Op basis van de referentiedata worden indicatoren gemaakt. Indien er dan nieuwe opnames komen, kunnen we die classificeren in een bepaald bostype op basis van de indicatoren die we hier creëren.
+
+```{r calibreerreferentiedata}
+score_config <- btyp_calibrateForestTypology(RefOpnames)
+```
+
+## Nieuwe opnames classificeren
+
+### Berekeningen zonder wegingen
+
+Hierbij gebruiken we exact hetzelfde voorbeeld als in de handleiding van de Access applicatie. Dit is gewoon een willekeurige opname, die we dan zullen toetsen aan onze nieuwe indicator voor het bostype te vinden.
+
+```{r nieuweopname}
+my_opname <- 
+  data.frame(OPNAMECODE = 19,
+             SOORT = c("Zomereik", "Gewone braam", "Lelietje-van-dalen", 
+                       "Wilde hyacint", "Es"),
+             BEDEKKING = c(50,5,5,2,60))
+
+my_opname <- my_opname %>% 
+  left_join(Soortenlijst %>% select(SPECIES_NR, NAME_NL), 
+            by = c("SOORT" = "NAME_NL")) 
+
+#De duplicaten eruit halen want door de synoniemen zijn er meerdere rijen in de soortenlijst die geldig zijn voor dezelfde rij in MyOpname
+my_opname <- my_opname %>% filter(!duplicated(.))
+```
+
+### Voor de classificatie uit
+
+De resultaten hier komen overeen met deze in de handleiding bij de oorspronkelijke applicatie.
+
+```{r classificatie1}
+result1 <- btyp_calculateAffinity(my_opname, score_config, correct = FALSE)
+result1
+```
+
+```{r classificatie2}
+result2 <- btyp_calculateAffinity(my_opname, score_config, correct = TRUE)
+result2
+```
+
+### Voorstellen van resultaten
+
+Uiteindelijk kan de classificatie grafisch voorgesteld worden.
+
+```{r presentatie}
+btyp_plotAffinity(result2)
+```
+
