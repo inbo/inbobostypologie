@@ -15,6 +15,9 @@ btyp_calculateSimilarity(dat, ref, correct, typology = "T1")
 
 \item{typology}{Which typology score to use (now T1 (10 types), T2 (30 subtypes), T3 (39 detail types) are allowed)}
 }
+\value{
+dataset met resultaten
+}
 \description{
 The central routine to calculate similarities. Normally called from a do (dplyr) or ddply (plyr) loop like btyp_calculateAffinity
 }

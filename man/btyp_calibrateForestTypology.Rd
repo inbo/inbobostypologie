@@ -7,7 +7,12 @@
 btyp_calibrateForestTypology(obj, typology = "T1")
 }
 \arguments{
-\item{typology}{}
+\item{obj}{object waarop berekeningen gebeuren}
+
+\item{typology}{keuze van het typologieniveau "T1", "T2"of "T3"}
+}
+\value{
+dataset met resultaten
 }
 \description{
 Title

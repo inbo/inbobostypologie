@@ -2,15 +2,17 @@
 
 #' Title
 #'
-#' @param obj
-#' @param repeat_first
-#' @param size
+#' @param obj object waarop berekeningen gebeuren
+#' @param size dikte van de lijn
 #'
-#' @return
+#' @return ggplot object
+#' @importFrom stats na.omit
+#' @importFrom utils tail
+#' @importFrom ggplot2 ggplot aes geom_path geom_text geom_segment coord_fixed
+#' @importFrom ggplot2 xlim ylim
 #' @export
 #'
-#' @examples
-btyp_plotAffinity <- function(obj, repeat_first = plot, size = 2){
+btyp_plotAffinity <- function(obj, size = 2){
   x <- na.omit(obj)
   if (length(unique(x$OPNAMECODE))> 1) {
     stop("plot moet voor ieder opnamenummer apart gemaakt worden (eventueel via een for-lus)")
@@ -39,17 +41,19 @@ btyp_plotAffinity <- function(obj, repeat_first = plot, size = 2){
 
   ##plot itself
   p <-
-    ggplot(plotdata, aes(x = x, y = y)) +
+    ggplot(plotdata, aes(x = .data$x, y = .data$y)) +
     geom_path(colour = "green", size = size) +
-    geom_text(aes(x=xlabel,y=ylabel , label = BostypeCode)) +
+    geom_text(aes(x = .data$xlabel,
+                  y = .data$ylabel , 
+                  label = .data$BostypeCode)) +
     coord_fixed() +
     xlim(-limits * 1.15, limits * 1.15) +
     ylim(-limits * 1.15, limits * 1.15) +
-    geom_segment(aes(xend=0, yend=0, x = xlabel, y=ylabel)) +
-    geom_path(data = circle1, aes(x = x, y = y)) +
-    geom_path(data = circle2, aes(x = x, y = y)) +
-    geom_path(data = circle3, aes(x = x, y = y)) +
-    facet_wrap(~OPNAMECODE)
+    geom_segment(aes(xend=0, yend=0, x = .data$xlabel, y = .data$ylabel)) +
+    geom_path(data = circle1, aes(x = .data$x, y = .data$y)) +
+    geom_path(data = circle2, aes(x = .data$x, y = .data$y)) +
+    geom_path(data = circle3, aes(x = .data$x, y = .data$y)) +
+    facet_wrap(~.data$OPNAMECODE)
   #rv
   p
 }

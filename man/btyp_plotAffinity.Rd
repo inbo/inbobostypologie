@@ -4,10 +4,15 @@
 \alias{btyp_plotAffinity}
 \title{Title}
 \usage{
-btyp_plotAffinity(obj, repeat_first = plot, size = 2)
+btyp_plotAffinity(obj, size = 2)
 }
 \arguments{
-\item{size}{}
+\item{obj}{object waarop berekeningen gebeuren}
+
+\item{size}{dikte van de lijn}
+}
+\value{
+ggplot object
 }
 \description{
 Title

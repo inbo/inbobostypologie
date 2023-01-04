@@ -4,12 +4,36 @@
 \alias{btyp_prepareSampleData}
 \title{Title}
 \usage{
-btyp_prepareSampleData(opname, scale, conversiontable, specieslist,
-  lang_sp = "NL", namecolumn = "SOORT", keycolumn = "OPNAMECODE",
-  coveragecolumn = "COVERAGE_CODE")
+btyp_prepareSampleData(
+  opname,
+  scale,
+  conversiontable,
+  specieslist,
+  lang_sp = "NL",
+  namecolumn = "SOORT",
+  keycolumn = "OPNAMECODE",
+  coveragecolumn = "COVERAGE_CODE"
+)
 }
 \arguments{
-\item{coveragecolumn}{}
+\item{opname}{opname}
+
+\item{scale}{schaal}
+
+\item{conversiontable}{conversietabel}
+
+\item{specieslist}{soortenlijst}
+
+\item{lang_sp}{taal soortenlijst "NL"}
+
+\item{namecolumn}{kolomnaam van de soort}
+
+\item{keycolumn}{sleutelkolom}
+
+\item{coveragecolumn}{kolom met bedekkingen}
+}
+\value{
+data.frame
 }
 \description{
 Title

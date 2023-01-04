@@ -6,6 +6,9 @@
 \usage{
 btyp_readReferenceDataFiles()
 }
+\value{
+lijst met ingelezen waarden
+}
 \description{
 Title
 }

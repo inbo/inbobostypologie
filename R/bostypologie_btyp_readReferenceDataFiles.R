@@ -3,21 +3,25 @@
 ### Inleesfuncties (de data staat in de inst map van het pakket)
 #' Title
 #'
-#' @return
+#' @return lijst met ingelezen waarden
+#' @importFrom utils read.csv2
 #' @export
 #'
-#' @examples
 btyp_readReferenceDataFiles <- function(){
-  fpath <- system.file("bostypologie/extdata", "Bostypes_Vlaanderen.csv", package="INBOmisc")
+  fpath <- system.file("pkgdata", "bostypes_vlaanderen.csv", 
+                       package="inbobostypologie")
   dfrBostypes <- read.csv2(fpath, stringsAsFactors = FALSE)
 
-  fpath <- system.file("bostypologie/extdata", "Reference_Values.csv", package="INBOmisc")
+  fpath <- system.file("pkgdata", "referentiewaarden_berekening.csv", 
+                       package="inbobostypologie")
   dfrReference <- read.csv2(fpath, stringsAsFactors = FALSE)
 
-  fpath <- system.file("bostypologie/extdata", "Species_List_Vlaanderen.csv", package="INBOmisc")
+  fpath <- system.file("pkgdata", "soortenlijst_vlaanderen.csv", 
+                       package="inbobostypologie")
   dfrSpecieslist <- read.csv2(fpath, stringsAsFactors = FALSE)
 
-  fpath <- system.file("bostypologie/extdata", "SchaalConversie.csv", package="INBOmisc")
+  fpath <- system.file("pkgdata", "schaal_conversie.csv", 
+                       package="inbobostypologie")
   dfrConversion <- read.csv2(fpath, stringsAsFactors = FALSE)
 
   list(Bostypes = dfrBostypes,

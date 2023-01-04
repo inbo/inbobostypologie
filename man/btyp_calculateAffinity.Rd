@@ -19,6 +19,9 @@ btyp_calculateAffinity(dat, ref, correct = TRUE, typology = "T1")
 \item{T2}{Categorisatie in 30 subtypes}
 \item{T3}{Categorisatie in 39 detailtypes}}}
 }
+\value{
+dataset met resultaten
+}
 \description{
 This function is a wrapper that calculates for every "vegetatieopname" the similarity score using the function btyp_calculateSimilarity
 }

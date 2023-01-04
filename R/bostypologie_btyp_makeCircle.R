@@ -4,9 +4,8 @@
 #' @param radius radius of circle
 #' @param num resolution of circle. Amount of points of which a half-circle consists
 #'
-#' @return
+#' @return dataset met cirkelcoordinaten
 #' @export
-#'
 #' @examples
 #' cko <- btyp_makeCircle(radius = 3, num = 100)
 #' par(pty="s")

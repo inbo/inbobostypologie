@@ -11,6 +11,9 @@ btyp_makeCircle(radius, num)
 
 \item{num}{resolution of circle. Amount of points of which a half-circle consists}
 }
+\value{
+dataset met cirkelcoordinaten
+}
 \description{
 Create xy coordinates of a circle given the radius and resolution
 }

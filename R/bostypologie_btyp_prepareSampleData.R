@@ -1,21 +1,28 @@
 #scale Pct, BrBl, Tan11, Londo
 #NL, SCI
+
+
 #' Title
 #'
-#' @param opname
-#' @param scale
-#' @param conversiontable
-#' @param specieslist
-#' @param lang_sp
-#' @param namecolumn
-#' @param keycolumn
-#' @param coveragecolumn
+#' @param opname opname
+#' @param scale schaal
+#' @param conversiontable conversietabel
+#' @param specieslist soortenlijst
+#' @param lang_sp taal soortenlijst "NL"
+#' @param namecolumn kolomnaam van de soort
+#' @param keycolumn sleutelkolom
+#' @param coveragecolumn kolom met bedekkingen
+#' @importFrom dplyr distinct 
+#' @importFrom ggplot2 facet_wrap
 #'
-#' @return
+#' @return data.frame
 #' @export
 #'
-#' @examples
-btyp_prepareSampleData <- function(opname, scale, conversiontable, specieslist, lang_sp = "NL", namecolumn = "SOORT", keycolumn = "OPNAMECODE", coveragecolumn = "COVERAGE_CODE"){
+btyp_prepareSampleData <- 
+  function(opname, scale, conversiontable, specieslist,
+           lang_sp = "NL", namecolumn = "SOORT", keycolumn = "OPNAMECODE",
+           coveragecolumn = "COVERAGE_CODE"){
+  
   #SPECIES_NR, OPNAMECODE, BEDEKKING
   opname$OPNAMECODE <- opname[, keycolumn]
   opname$COVERAGE_CODE <- opname[, coveragecolumn]
@@ -61,8 +68,8 @@ btyp_prepareSampleData <- function(opname, scale, conversiontable, specieslist, 
   if (any(is.na(Data$BEDEKKING))) {
     stop("Niet alle bedekkingen konden correct gedecodeerd worden")
   }
-  Data <- select(Data, OPNAMECODE, SPECIES_NR, COVERAGE)
-  Data
+  Data %>% 
+    select( .data$OPNAMECODE, .data$SPECIES_NR, .data$COVERAGE)
   }
 
 

@@ -1,0 +1,185 @@
+ID;SCALE_CODE;COVERAGE_CODE;COVERAGE;NAME_SHORT;NAME_FULL
+1;32;.1;0,1;Pct;Procentueel
+2;32;.2;0,2;Pct;Procentueel
+3;32;.3;0,3;Pct;Procentueel
+4;32;.4;0,4;Pct;Procentueel
+5;32;.5;0,5;Pct;Procentueel
+6;32;.6;0,6;Pct;Procentueel
+7;32;.7;0,7;Pct;Procentueel
+8;32;.8;0,8;Pct;Procentueel
+9;32;.9;0,9;Pct;Procentueel
+10;32;1;1;Pct;Procentueel
+11;32;2;2;Pct;Procentueel
+12;32;3;3;Pct;Procentueel
+13;32;4;4;Pct;Procentueel
+14;32;5;5;Pct;Procentueel
+15;32;6;6;Pct;Procentueel
+16;32;7;7;Pct;Procentueel
+17;32;8;8;Pct;Procentueel
+18;32;9;9;Pct;Procentueel
+19;32;10;10;Pct;Procentueel
+20;32;11;11;Pct;Procentueel
+21;32;12;12;Pct;Procentueel
+22;32;13;13;Pct;Procentueel
+23;32;14;14;Pct;Procentueel
+24;32;15;15;Pct;Procentueel
+25;32;16;16;Pct;Procentueel
+26;32;17;17;Pct;Procentueel
+27;32;18;18;Pct;Procentueel
+28;32;19;19;Pct;Procentueel
+29;32;20;20;Pct;Procentueel
+30;32;21;21;Pct;Procentueel
+31;32;22;22;Pct;Procentueel
+32;32;23;23;Pct;Procentueel
+33;32;24;24;Pct;Procentueel
+34;32;25;25;Pct;Procentueel
+35;32;26;26;Pct;Procentueel
+36;32;27;27;Pct;Procentueel
+37;32;28;28;Pct;Procentueel
+38;32;29;29;Pct;Procentueel
+39;32;30;30;Pct;Procentueel
+40;32;31;31;Pct;Procentueel
+41;32;32;32;Pct;Procentueel
+42;32;33;33;Pct;Procentueel
+43;32;34;34;Pct;Procentueel
+44;32;35;35;Pct;Procentueel
+45;32;36;36;Pct;Procentueel
+46;32;37;37;Pct;Procentueel
+47;32;38;38;Pct;Procentueel
+48;32;39;39;Pct;Procentueel
+49;32;40;40;Pct;Procentueel
+50;32;41;41;Pct;Procentueel
+51;32;42;42;Pct;Procentueel
+52;32;43;43;Pct;Procentueel
+53;32;44;44;Pct;Procentueel
+54;32;45;45;Pct;Procentueel
+55;32;46;46;Pct;Procentueel
+56;32;47;47;Pct;Procentueel
+57;32;48;48;Pct;Procentueel
+58;32;49;49;Pct;Procentueel
+59;32;50;50;Pct;Procentueel
+60;32;51;51;Pct;Procentueel
+61;32;52;52;Pct;Procentueel
+62;32;53;53;Pct;Procentueel
+63;32;54;54;Pct;Procentueel
+64;32;55;55;Pct;Procentueel
+65;32;56;56;Pct;Procentueel
+66;32;57;57;Pct;Procentueel
+67;32;58;58;Pct;Procentueel
+68;32;59;59;Pct;Procentueel
+69;32;60;60;Pct;Procentueel
+70;32;61;61;Pct;Procentueel
+71;32;62;62;Pct;Procentueel
+72;32;63;63;Pct;Procentueel
+73;32;64;64;Pct;Procentueel
+74;32;65;65;Pct;Procentueel
+75;32;66;66;Pct;Procentueel
+76;32;67;67;Pct;Procentueel
+77;32;68;68;Pct;Procentueel
+78;32;69;69;Pct;Procentueel
+79;32;70;70;Pct;Procentueel
+80;32;71;71;Pct;Procentueel
+81;32;72;72;Pct;Procentueel
+82;32;73;73;Pct;Procentueel
+83;32;74;74;Pct;Procentueel
+84;32;75;75;Pct;Procentueel
+85;32;76;76;Pct;Procentueel
+86;32;77;77;Pct;Procentueel
+87;32;78;78;Pct;Procentueel
+88;32;79;79;Pct;Procentueel
+89;32;80;80;Pct;Procentueel
+90;32;81;81;Pct;Procentueel
+91;32;82;82;Pct;Procentueel
+92;32;83;83;Pct;Procentueel
+93;32;84;84;Pct;Procentueel
+94;32;85;85;Pct;Procentueel
+95;32;86;86;Pct;Procentueel
+96;32;87;87;Pct;Procentueel
+97;32;88;88;Pct;Procentueel
+98;32;89;89;Pct;Procentueel
+99;32;90;90;Pct;Procentueel
+100;32;91;91;Pct;Procentueel
+101;32;92;92;Pct;Procentueel
+102;32;93;93;Pct;Procentueel
+103;32;94;94;Pct;Procentueel
+104;32;95;95;Pct;Procentueel
+105;32;96;96;Pct;Procentueel
+106;32;97;97;Pct;Procentueel
+107;32;98;98;Pct;Procentueel
+108;32;99;99;Pct;Procentueel
+109;32;9X;100;Pct;Procentueel
+110;9;r;1;BrBl;Braun/Blanquet (B,D&S)
+111;9;+;2;BrBl;Braun/Blanquet (B,D&S)
+112;9;1;3;BrBl;Braun/Blanquet (B,D&S)
+113;9;2m;4;BrBl;Braun/Blanquet (B,D&S)
+114;9;3;38;BrBl;Braun/Blanquet (B,D&S)
+115;9;4;68;BrBl;Braun/Blanquet (B,D&S)
+116;9;5;88;BrBl;Braun/Blanquet (B,D&S)
+117;19;r1;1;Londo;Londo (1) volledig
+118;19;p1;1;Londo;Londo (1) volledig
+119;19;a1;1;Londo;Londo (1) volledig
+120;19;m1;1;Londo;Londo (1) volledig
+121;19;p2;2;Londo;Londo (1) volledig
+122;19;a2;2;Londo;Londo (1) volledig
+123;19;m2;2;Londo;Londo (1) volledig
+124;19;r4;4;Londo;Londo (1) volledig
+125;19;p4;4;Londo;Londo (1) volledig
+126;19;a4;4;Londo;Londo (1) volledig
+127;19;m4;4;Londo;Londo (1) volledig
+128;19;1;10;Londo;Londo (1) volledig
+129;19;2;20;Londo;Londo (1) volledig
+130;19;3;30;Londo;Londo (1) volledig
+131;19;4;40;Londo;Londo (1) volledig
+132;19;-5;47;Londo;Londo (1) volledig
+133;19;5+;52;Londo;Londo (1) volledig
+134;19;6;60;Londo;Londo (1) volledig
+135;19;7;70;Londo;Londo (1) volledig
+136;19;8;80;Londo;Londo (1) volledig
+137;19;9;90;Londo;Londo (1) volledig
+138;19;10;97;Londo;Londo (1) volledig
+139;19;-1;7;Londo;Londo (1) volledig
+140;19;1+;12;Londo;Londo (1) volledig
+141;19;-2;17;Londo;Londo (1) volledig
+142;19;2+;22;Londo;Londo (1) volledig
+143;19;-3;27;Londo;Londo (1) volledig
+144;19;3+;32;Londo;Londo (1) volledig
+145;19;-4;37;Londo;Londo (1) volledig
+146;19;4+;42;Londo;Londo (1) volledig
+147;19;5;50;Londo;Londo (1) volledig
+148;19;-6;57;Londo;Londo (1) volledig
+149;19;6+;62;Londo;Londo (1) volledig
+150;19;-7;67;Londo;Londo (1) volledig
+151;19;7+;72;Londo;Londo (1) volledig
+152;19;-8;77;Londo;Londo (1) volledig
+153;19;8+;82;Londo;Londo (1) volledig
+154;19;-9;87;Londo;Londo (1) volledig
+155;19;9+;92;Londo;Londo (1) volledig
+156;19;.1;1;Londo;Londo (1) volledig
+157;19;.2;2;Londo;Londo (1) volledig
+158;19;.4;4;Londo;Londo (1) volledig
+159;19;r2;2;Londo;Londo (1) volledig
+160;38;d;60;Tan11;Tansley 11
+161;38;cd;40;Tan12;Tansley 12
+162;38;a;15;Tan13;Tansley 13
+163;38;f;8;Tan14;Tansley 14
+164;38;r;1;Tan15;Tansley 15
+165;38;s;1;Tan16;Tansley 16
+166;38;o;3;Tan17;Tansley 17
+167;38;lf;3;Tan18;Tansley 18
+168;38;la;9;Tan19;Tansley 19
+169;38;ld;22;Tan20;Tansley 20
+170;38;-;0,1;Tan21;Tansley 21
+171;38;ro;1;Tan22;Tansley 22
+172;38;lo;1;Tan23;Tansley 23
+173;38;of;3;Tan24;Tansley 24
+174;38;fa;9;Tan25;Tansley 25
+175;38;c;30;Tan26;Tansley 26
+176;38;ad;22;Tan27;Tansley 27
+177;38;ac;18;Tan28;Tansley 28
+178;38;fd;12;Tan29;Tansley 29
+179;38;fc;10;Tan30;Tansley 30
+180;38;od;6;Tan31;Tansley 31
+181;38;oc;5;Tan32;Tansley 32
+182;38;oa;4;Tan33;Tansley 33
+183;9;2a;8;BrBl;Braun/Blanquet (B,D&S)
+184;9;2b;18;BrBl;Braun/Blanquet (B,D&S)
